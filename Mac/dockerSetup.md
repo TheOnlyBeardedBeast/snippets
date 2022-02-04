@@ -22,3 +22,9 @@ Get IP, localhost with ports wont work with your docker containers, you have to 
 ```shell
 minikube ip
 ```
+Add the eval at the end of your shell config for example `~/.zshrc` so docker will be available in every CLI window from the beginnig
+
+```shell
+# ...
+eval $(minikube docker-env)
+```
