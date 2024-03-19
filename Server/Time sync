@@ -1,0 +1,3 @@
+# Reset time if docker virtual machine time is off sync with host machine
+
+`sudo hwclock -s`
